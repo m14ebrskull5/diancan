@@ -1,0 +1,21 @@
+<view class="index-module__wrap___Dhgnj">
+  <image class="index-module__login_banner___z0wDi" src="https://saas-web.hdlcdns.com/offline-activities-v3/login_page_banner_v1.png"></image>
+  <view class="agreement-com flex-col-align">
+    <view class="flex login-file">
+      <view class="login-radio">
+        <image bindtap="check" src="{{check?'/images/check_o_v1.png':'/images/check_v1.png'}}" mode="scaleToFill" class="agreen-icon"></image>
+      </view>
+      <view class="flex-col-align">
+        <view class="row">
+          <text>已阅读并同意</text>
+          <text class="login-file-item">《用户许可使用协议》</text>
+          <text class="login-file-item">《隐私协议》</text>
+          <text class="login-file-item">《会员条例》</text>
+        </view>
+        <text class="login-file login-tip row">未注册的用户将直接创建账户</text>
+      </view>
+    </view>
+
+  </view>
+  <button open-type="getPhoneNumber" bindgetphonenumber="bindgetphonenumber" class="index-module__btn____P54F" style="height: 44px; width: 283px; background-color: #F33429; color: #fff; font-size: 16px; border-radius: 22px; font-weight: bold;">手机号快捷登录</button>
+</view>

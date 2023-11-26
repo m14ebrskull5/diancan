@@ -1,0 +1,30 @@
+<view class="index-page">
+  <view class="index-module__banner___Snc_G">
+    <view class="index-module__swiper_box___yz6Fz">
+
+      <t-swiper t-class="index-module__swiper_box___yz6Fz" height="100%" current="{{current}}" autoplay="{{autoplay}}" duration="{{duration}}" interval="{{interval}}" navigation="{{ { type: 'dots-bar' } }}" list="{{swiperList}}" bind:click="onTap">
+      </t-swiper>
+    </view>
+    <view class="index-module__other_wrap___vXNLy">
+      <view class="index-module__user_info___fLEyh">
+        <view class="index-module__user_panel___qe9cZ">
+          <view class="index-module__login_block___ZsqhS">
+            <view class="index-module__base_info___iQgJ8">
+              <image class="index-module__logo___Jj54z" src="/images/normal_header_v3.png"></image>
+              <view class="index-module__name_block___drUuy">
+                <text class="index-module__name___YPZNE">欢迎来到海底捞</text>
+                <text class="index-module__login_tip___OkULM">马上登录查看优惠信息</text>
+              </view>
+            </view>
+            <image src="/images/index_header_login_btn_v1.png" mode="scaleToFill" class="index-module__login_btn___S4aA4" bindtap="navToLogin"></image>
+
+          </view>
+        </view>
+      </view>
+    </view>
+  </view>
+  <view class="index-module__other_point___HmeW0">
+    <image class="index-module__waimai___qi7mJ" mode="widthFix" src="https://saas-web.hdlcdns.com/offline-activities-v3/index_waimai_enter_v9.png"></image>
+    <image class="index-module__waimai___qi7mJ" mode="widthFix" src="https://saas-web.hdlcdns.com/offline-activities-v3/index_waimai_enter_v9.png"></image>
+  </view>
+</view>
